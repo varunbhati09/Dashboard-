@@ -1,0 +1,22 @@
+/* CustomTable.css */
+.custom-table-container {
+    height: 500px; /* Set the height to the desired height for displaying 100 rows */
+    overflow-y: scroll; /* Add vertical scrollbar */
+  }
+  
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .custom-table th {
+    background-color: #f2f2f2;
+  }
+  
